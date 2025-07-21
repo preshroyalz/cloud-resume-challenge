@@ -8,7 +8,7 @@
 | 1     | Azure Fundamentals Certification (AZ-900) | 🔜 Pending | Passed and certified |
 | 2     | HTML Resume Created                       | ✅ Done | index.html completed |
 | 3     | CSS Styling Applied                       | ✅ Done | External styles.css |
-| 4     | Website Hosted on Azure Blob Storage      | ✅ Done | Static site deployed: [Live Site]([https://<your-url>](https://preciouswebsite.z6.web.core.windows.net/)) |
+| 4     | Website Hosted on Azure Blob Storage      | ✅ Done | Static site deployed: [Live Site](https://preciouswebsite.z6.web.core.windows.net/) |
 | 5     | Custom Domain & HTTPS                     | 🔜 Pending | Planning to add custom domain |
 | 6     | GitHub Version Control                    | ✅ Done | Repo initialized & tracked |
 | 7     | CI/CD with GitHub Actions                 | 🔜 Pending | To automate deployment |
@@ -18,3 +18,14 @@
 | 11    | Infrastructure as Code (Bicep/Terraform)  | 🔜 Optional | To be added |
 | 12    | Final Polish and Badges                   | 🔜 Pending | Will finalize with badges |
 
+
+
+### ✅ Stage 4: Host Resume on Azure Static Website
+
+I deployed my static HTML/CSS site to Azure Blob Storage using the static website hosting feature.
+
+🔗 [Live Website](https://preciouswebsite.z6.web.core.windows.net/)
+
+📸 Screenshot:
+
+![Azure Static Website Hosting](./screenshots/stage-4-azure-static-hosting.png)
