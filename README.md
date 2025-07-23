@@ -3,20 +3,24 @@
 
 ## 📌 Project Progress
 
-| Stage | Description                              | Status | Notes |
-|-------|------------------------------------------|--------|-------|
-| 1     | Azure Fundamentals Certification (AZ-900) | 🔜 Pending | Passed and certified |
-| 2     | HTML Resume Created                       | ✅ Done | index.html completed |
-| 3     | CSS Styling Applied                       | ✅ Done | External styles.css |
-| 4     | Website Hosted on Azure Blob Storage      | ✅ Done | Static site deployed: [Live Site](https://preciouswebsite.z6.web.core.windows.net/) |
-| 5     | Custom Domain & HTTPS                     | 🔜 Pending | Planning to add custom domain |
-| 6     | GitHub Version Control                    | ✅ Done | Repo initialized & tracked |
-| 7     | CI/CD with GitHub Actions                 | 🔜 Pending | To automate deployment |
-| 8     | Azure Function Backend (Visitor Counter)  | 🔜 Pending | Coming soon |
-| 9     | Azure Cosmos DB / Table Storage           | 🔜 Pending | For storing visitor count |
-| 10    | Frontend JS for Visitor Counter           | 🔜 Pending | Will integrate API |
-| 11    | Infrastructure as Code (Bicep/Terraform)  | 🔜 Optional | To be added |
-| 12    | Final Polish and Badges                   | 🔜 Pending | Will finalize with badges |
+| Stage | Description | Status | Notes |
+|-------|-------------|--------|-------|
+| 1 | **Azure Fundamentals Certification (AZ-900)** | 🔜 Pending | Passed and certified |
+| 2 | **HTML Resume Created** | ✅ Done | `index.html` completed |
+| 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
+| 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed: [Live Site](https://preciouswebsite.z6.web.core.windows.net/) |
+| 5 | **HTTPS for Azure Storage URL using Azure CDN** | 🔜 Pending | Azure CDN profile created |
+| 6 | **DNS Domain for Azure CDN endpoint** | 🔜 Pending | Custom domain added to Azure CDN endpoint |
+| 7 | **Frontend JS for Visitor Counter** | 🔜 Pending | Integrate API with resume site |
+| 8 | **Azure Cosmos DB / Table Storage** | 🔜 Pending | Store and retrieve visitor count data |
+| 9 | **Azure Function Backend API (Visitor Counter)** | 🔜 Pending | Will handle API requests |
+|10 | **Python Azure Function (Backend Logic)** | 🔜 Pending | Python code to handle serverless logic |
+|11 | **Python Code Testing** | 🔜 Pending | Unit tests to ensure Azure Function logic is reliable and bug-free |
+|12 | **Infrastructure as Code (Bicep/Terraform)** | 🔜 Optional | Automate resource provisioning |
+|13 | **Source Control & CI/CD** | 🔜 Pending | GitHub repo and workflows to auto-deploy frontend and backend on code changes |
+|14 | **CI/CD Pipeline for Backend** | 🔜 Pending | GitHub Actions to run tests and deploy Azure Function and IaC templates automatically |
+|15 | **CI/CD Pipeline for Frontend** | 🔜 Pending | Automate frontend deployment to Azure Blob Storage via GitHub Actions, with optional CDN cache purge |
+|16 | **Blog Post Summary** | 🔜 Pending | Will write and publish a short blog post reflecting on lessons learned during the Cloud Resume Challenge |
 
 
 
