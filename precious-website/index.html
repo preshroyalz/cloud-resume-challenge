@@ -12,12 +12,13 @@
     <p>Email: preciousonuorah1998@gmail.com</p>
     <p>Mobile number: +2348168000596</p>
     <p>Aspiring Azure Cloud Engineer</p>
+    <p>You are visitor number <span id="visitor-count">...</span> to this site.</p>
   </header>
 
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Passionate and self-motivated cloud enthusiast with hands-on experience in Microsoft Azure fundamentals. Currently, Azure Administrator and Azure Security. Skilled in self-directed learning, cloud implementation and building cloud-based solutions with Azure services and frontend technologies.    </p>
+      Passionate and self-motivated cloud enthusiast with hands-on experience in Microsoft Azure fundamentals and Administration. Currently pursuing training in Azure Security. Skilled in self-directed learning, cloud implementation and building cloud-based solutions with Azure services.    </p>
   </section>
 
   <section id="about">
@@ -45,8 +46,10 @@
       <li>Azure Virtual Machines</li>
       <li>Azure Storage Accounts and Static Web Hosting</li>
       <li>Azure CDN</li>
-      <li>Git Command Line Interface</li>
+      <li>Azure Function</li>
+      <li>Azure CosmosDB</li>
       <li>Azure Monitor</li>
+      <li>Git Command Line Interface</li>
       <li>HTML/CSS</li>
       <li>Python</li>
     </ul>
@@ -55,7 +58,7 @@
   <section id="certifications">
     <h2>Certifications</h2>
     <ul>
-      <li>Microsoft Certified: Azure Fundamentals (AZ-900) in view</li>
+      <li>Microsoft Certified: Azure Fundamentals (AZ-900) </li>
       <li>Microsoft Certified: Azure Administrator Associate (AZ-104) in view</li>
       <li>Microsoft Certified: Azure Security (AZ-500) in view</li>
     </ul>
@@ -70,11 +73,25 @@
   </section>
 
   <footer>
-    <p id="visitor-count">👀 Loading visitors...</p>
     <p>© 2025 Precious. Built with ❤️ in the cloud.</p>
   </footer>
   
-  <script src="script.js"></script>
+  <script>
+  async function updateVisitorCount() {
+    try {
+      const response = await fetch("https://preciousvisitorapi-edb0dwetf7djfscs.westeurope-01.azurewebsites.net/api/VisitorCounterFunction");
+      const count = await response.text();
+      document.getElementById("visitor-count").textContent = count;
+    } catch (error) {
+      console.error("Failed to fetch visitor count:", error);
+      document.getElementById("visitor-count").textContent = "error";
+    }
+  }
+
+  // Call the function when the page loads
+  updateVisitorCount();
+</script>
+
 
 </body>
 </html>

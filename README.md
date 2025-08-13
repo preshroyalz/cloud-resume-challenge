@@ -5,7 +5,7 @@
 
 | Stage | Description | Status | Notes |
 |-------|-------------|--------|-------|
-| 1 | **Azure Fundamentals Certification (AZ-900)** | 🔜 Pending | Passed and certified |
+| 1 | **Azure Fundamentals Certification (AZ-900)** | ✅ Done | Passed and certified |
 | 2 | **HTML Resume Created** | ✅ Done | `index.html` completed |
 | 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
 | 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed: [Live Site](https://preciouswebsite.z6.web.core.windows.net/) |
