@@ -28,6 +28,14 @@
 
 ![Az-900 Certificate](screenshots/stage-1-az900-certificate.png)
 
+### ✅ Stage 2: HTML Resume Created
+
+![Html Resume](screenshots/stage-2-index-html.png)
+
+### ✅ Stage 3: CSS Styling Applied
+
+![CSS Styling](screenshots/stage-3-css-styling.png)
+
 ### ✅ Stage 4: Host Resume on Azure Static Website
 
 I deployed my static HTML/CSS site to Azure Blob Storage using the static website hosting feature.
