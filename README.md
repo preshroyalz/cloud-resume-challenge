@@ -26,7 +26,7 @@
 
 📸 Screenshot:
 
-(./screenshots/stage-1-az900-certificate)
+(./screenshots/stage-1-az900-certificate.png)
 
 ### ✅ Stage 4: Host Resume on Azure Static Website
 
