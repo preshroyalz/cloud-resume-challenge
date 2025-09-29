@@ -22,7 +22,11 @@
 |15 | **CI/CD Pipeline for Frontend** | 🔜 Pending | Automate frontend deployment to Azure Blob Storage via GitHub Actions, with optional CDN cache purge |
 |16 | **Blog Post Summary** | 🔜 Pending | Will write and publish a short blog post reflecting on lessons learned during the Cloud Resume Challenge |
 
+### ✅ Stage 1: Azure Fundamentals Certification (AZ-900)
 
+📸 Screenshot:
+
+(./screenshots/stage-1-az900-certificate)
 
 ### ✅ Stage 4: Host Resume on Azure Static Website
 
