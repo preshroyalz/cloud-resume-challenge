@@ -8,7 +8,7 @@
 | 1 | **Azure Fundamentals Certification (AZ-900)** | ✅ Done | Passed and certified |
 | 2 | **HTML Resume Created** | ✅ Done | `index.html` completed |
 | 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
-| 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed: [Default Azure Storage static website endpoint](https://preciouswebsite.z6.web.core.windows.net/) |
+| 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed |
 | 5 | **HTTPS for Azure Storage URL using Azure CDN** | ✅ Done | Azure CDN profile created |
 | 6 | **DNS Domain for Azure CDN endpoint** | ✅ Done | Custom domain added to Azure CDN endpoint [Live Site from custom domain](https://preciousresume.site/) |
 | 7 | **Frontend JS for Visitor Counter** | 🔜 Pending | Integrate API with resume site |
@@ -48,7 +48,7 @@ I deployed my static HTML/CSS site to Azure Blob Storage using the static websit
 
 📸 Screenshot:
 
-![Azure Static Website Hosting](./screenshots/stage-4-azure-static-hosting.png)
+![Azure Static Website Hosting](screenshots/stage-4-azure-static-hosting.png)
 
 ### ✅ Stage 5: HTTPS for Azure Storage URL using Azure CDN
 
@@ -57,10 +57,10 @@ To enable HTTPS and serve the site on a custom domain, I integrated my storage a
 
 ### Screenshots
 - 📸 Namecheap DNS settings (nameservers pointing to Azure DNS). 
- ![Namecheap DNS settings](step-5-namecheap-dns-settings.png)
+ ![Namecheap DNS settings](screenshots/step-5-namecheap-dns-settings.png)
 - 📸 Azure CDN Profile and Endpoint overview.  
-![Overview](step-5-azure-cdn-profile-and-endpoint-overview.png)
+![Overview](screenshots/step-5-azure-cdn-profile-and-endpoint-overview.png)
 - 📸 CDN custom domain settings with HTTPS enabled.  
-![CDN custom domain settings with HTTPS enabled](step-5-cdn-custom-domain-settings-with-https-enabled.png)
+![CDN custom domain settings with HTTPS enabled](./screenshots/step-5-cdn-custom-domain-settings-with-https-enabled.png)
 - 📸 Browser screenshot of the live website with (https://www.preciousresume.site/) and the padlock.  
-![live website with custom domain](step-5-live-website-with-custom-domain.png)
+![live website with custom domain](screenshots/step-5-live-website-with-custom-domain.png)
