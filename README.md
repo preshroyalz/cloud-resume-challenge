@@ -72,11 +72,11 @@ I made my static website dynamic by fetching the visitor count from Azure Functi
 To integrate my backend API with my resume site, I added a JavaScript fetch call inside index.html that requested the visitor count from my live Azure Function endpoint. I placed the result inside a <span> element to display the count dynamically. Initially, local testing showed "error" because of CORS restrictions, so I updated my Function App’s CORS settings in Azure to allow requests from my static website domain. Finally, I uploaded the updated index.html to the $web container of my storage account. Once live, the site displayed the actual visitor count retrieved from Cosmos DB through the API.
 
 Screenshot of API endpoint in Function App
-![alt text](screenshots/step-7-api-endpoint-in-function-app.png)
-![alt text](screenshots/step-7-api-endpoint-in-function-app-1.png)
+![API endpoint in function app](screenshots/step-7-api-endpoint-in-function-app.png)
+![API endpoint in function app](screenshots/step-7-api-endpoint-in-function-app-1.png)
 Screenshot of index.html showing fetch() integration
-(screenshots/step-7-index-html-showing-fetch()-integration.png)
+![fetch() integration](screenshots/step-7-index-html-showing-fetch()-integration.png)
 Screenshot of CORS configuration in Azure Portal
-![alt text](screenshots/step-7-cors-settings.png)
+![CORS settings](screenshots/step-7-cors-settings.png)
 Screenshot of final website with live visitor counter
-![alt text](screenshots/step-7-website-showing-visitors-count.png)
+![Live website (https://www.preciousresume.site/)](screenshots/step-7-website-showing-visitors-count.png)
