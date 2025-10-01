@@ -10,7 +10,7 @@
 | 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
 | 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed |
 | 5 | **HTTPS for Azure Storage URL using Azure CDN** | ✅ Done | Azure CDN profile created |
-| 6 | **DNS Domain for Azure CDN endpoint** | ✅ Done | Custom domain added to Azure CDN endpoint [Live Site from custom domain](https://preciousresume.site/) |
+| 6 | **DNS Domain for Azure CDN endpoint** | ✅ Done | Custom domain added to Azure CDN endpoint [Live Site from custom domain(www.preciousresume.site)] (https://www.preciousresume.site/) |
 | 7 | **Frontend JS for Visitor Counter** | 🔜 Pending | Integrate API with resume site |
 | 8 | **Azure Cosmos DB / Table Storage** | 🔜 Pending | Store and retrieve visitor count data |
 | 9 | **Azure Function Backend API (Visitor Counter)** | 🔜 Pending | Will handle API requests |
