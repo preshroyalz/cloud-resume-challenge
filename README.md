@@ -62,5 +62,5 @@ To enable HTTPS and serve the site on a custom domain, I integrated my storage a
 ![Overview](step-5-azure-cdn-profile-and-endpoint-overview.png)
 - 📸 CDN custom domain settings with HTTPS enabled.  
 ![CDN custom domain settings with HTTPS enabled](step-5-cdn-custom-domain-settings-with-https-enabled.png)
-- 📸 Browser screenshot of the live website with `https://www.preciousresume.site` and the padlock.  
+- 📸 Browser screenshot of the live website with (https://www.preciousresume.site/) and the padlock.  
 ![live website with custom domain](step-5-live-website-with-custom-domain.png)
