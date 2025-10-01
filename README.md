@@ -64,3 +64,19 @@ To enable HTTPS and serve the site on a custom domain, I integrated my storage a
 ![CDN custom domain settings with HTTPS enabled](./screenshots/step-5-cdn-custom-domain-settings-with-https-enabled.png)
 - 📸 Browser screenshot of the live website with (https://www.preciousresume.site/) and the padlock.  
 ![live website with custom domain](screenshots/step-5-live-website-with-custom-domain.png)
+
+### ✅ Stage 7 Frontend JS for Visitor Counter
+
+I made my static website dynamic by fetching the visitor count from Azure Function and displaying it on my resume page.
+
+To integrate my backend API with my resume site, I added a JavaScript fetch call inside index.html that requested the visitor count from my live Azure Function endpoint. I placed the result inside a <span> element to display the count dynamically. Initially, local testing showed "error" because of CORS restrictions, so I updated my Function App’s CORS settings in Azure to allow requests from my static website domain. Finally, I uploaded the updated index.html to the $web container of my storage account. Once live, the site displayed the actual visitor count retrieved from Cosmos DB through the API.
+
+Screenshot of API endpoint in Function App
+![alt text](screenshots/step-7-api-endpoint-in-function-app.png)
+![alt text](screenshots/step-7-api-endpoint-in-function-app-1.png)
+Screenshot of index.html showing fetch() integration
+(screenshots/step-7-index-html-showing-fetch()-integration.png)
+Screenshot of CORS configuration in Azure Portal
+![alt text](screenshots/step-7-cors-settings.png)
+Screenshot of final website with live visitor counter
+![alt text](screenshots/step-7-website-showing-visitors-count.png)
