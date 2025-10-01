@@ -8,9 +8,9 @@
 | 1 | **Azure Fundamentals Certification (AZ-900)** | ✅ Done | Passed and certified |
 | 2 | **HTML Resume Created** | ✅ Done | `index.html` completed |
 | 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
-| 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed: [Live Site from preciouswebsite.z6.web.core.windows.net](https://preciouswebsite.z6.web.core.windows.net/) |
+| 4 | Website Hosted on Azure Blob Storage | ✅ Done | Static site deployed: [Default Azure Storage static website endpoint](https://preciouswebsite.z6.web.core.windows.net/) |
 | 5 | **HTTPS for Azure Storage URL using Azure CDN** | ✅ Done | Azure CDN profile created |
-| 6 | **DNS Domain for Azure CDN endpoint** | ✅ Done | Custom domain added to Azure CDN endpoint |
+| 6 | **DNS Domain for Azure CDN endpoint** | ✅ Done | Custom domain added to Azure CDN endpoint [Live Site from custom domain](https://preciousresume.site/) |
 | 7 | **Frontend JS for Visitor Counter** | 🔜 Pending | Integrate API with resume site |
 | 8 | **Azure Cosmos DB / Table Storage** | 🔜 Pending | Store and retrieve visitor count data |
 | 9 | **Azure Function Backend API (Visitor Counter)** | 🔜 Pending | Will handle API requests |
@@ -44,7 +44,7 @@
 
 I deployed my static HTML/CSS site to Azure Blob Storage using the static website hosting feature.
 
-🔗 [Live Website from preciouswebsite.z6.web.core.windows.net](https://preciouswebsite.z6.web.core.windows.net/)
+🔗 [Default Azure Storage static website endpoint](https://preciouswebsite.z6.web.core.windows.net/)
 
 📸 Screenshot:
 
@@ -52,38 +52,8 @@ I deployed my static HTML/CSS site to Azure Blob Storage using the static websit
 
 ### ✅ Stage 5: HTTPS for Azure Storage URL using Azure CDN
 
-By default, the Azure Storage static website endpoint only supports **HTTP**, which is not secure.  
-To enable **HTTPS** and serve the site on a **custom domain**, I integrated my storage account with **Azure CDN**.
-
-### Steps I Followed
-
-1. **Purchased a Custom Domain**  
-   - Bought the domain **preciousresume.site** from **Namecheap**.  
-   - Updated the domain’s nameservers to point to **Azure DNS** so I could manage DNS records directly in Azure.  
-
-2. **Created a CDN Profile and Endpoint**  
-   - In the Azure Portal, I created a **CDN Profile** under my resource group.  
-   - Chose the **Standard Microsoft** tier.  
-   - Added a **CDN Endpoint** and set the **origin type** to **Storage Static Website**, pointing it to my resume’s storage account.  
-
-3. **Linked Custom Domain to CDN**  
-   - Inside the CDN endpoint, I added my custom domain **www.preciousresume.site**.  
-   - Created a **CNAME record** in Azure DNS to map `www.preciousresume.site` → CDN endpoint hostname.  
-   - Verified domain ownership successfully.  
-
-4. **Enabled HTTPS**  
-   - In the CDN custom domain settings, I turned on **Custom Domain HTTPS**.  
-   - Selected the free **Azure-managed certificate** option.  
-   - Waited for the certificate to be issued (≈30 minutes).  
-
-5. **Tested the Secure Website**  
-   - Accessed my website at **https://www.preciousresume.site**.  
-   - Verified the site loads securely with the padlock icon in the browser.  
-
-### Key Benefits
-- **Security** – Enforced HTTPS with an Azure-managed SSL certificate.  
-- **Professionalism** – The site is hosted on a personal custom domain instead of the default Azure URL.  
-- **Performance** – Azure CDN improves speed and availability through global caching.  
+By default, the Azure Storage static website endpoint only supports HTTP, which is not secure.  
+To enable HTTPS and serve the site on a custom domain, I integrated my storage account with Azure CDN. 
 
 ### Screenshots
 - 📸 Namecheap DNS settings (nameservers pointing to Azure DNS). 
