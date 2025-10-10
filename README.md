@@ -140,3 +140,6 @@ Deployed Resources on Azure Portal
 ![Deployed Resources](screenshots/stage-12-deployed-resources-on-portal.png)
 
 ### ✅ Stage 13 Source Control & CI/CD
+
+The goal of this stage is: “Automatically deploy your backend (Azure Function) and frontend (Static Website) every time you push code changes.”
+
