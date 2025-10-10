@@ -15,8 +15,8 @@
 | 8 | **Azure Cosmos DB / Table Storage** | ✅ Done | Store and retrieve visitor count data |
 | 9 | **Azure Function Backend API (Visitor Counter)** | ✅ Done | Will handle API requests |
 |10 | **Python Azure Function (Backend Logic)** | ✅ Done | Python code to handle serverless logic |
-|11 | **Python Code Testing** | 🔜 Pending | Unit tests to ensure Azure Function logic is reliable and bug-free |
-|12 | **Infrastructure as Code (Bicep/Terraform)** | 🔜 Optional | Automate resource provisioning |
+|11 | **Python Code Testing** | ✅ Done | Unit tests to ensure Azure Function logic is reliable and bug-free |
+|12 | **Infrastructure as Code** | ✅ Done | Automate resource provisioning |
 |13 | **Source Control & CI/CD** | 🔜 Pending | GitHub repo and workflows to auto-deploy frontend and backend on code changes |
 |14 | **CI/CD Pipeline for Backend** | 🔜 Pending | GitHub Actions to run tests and deploy Azure Function and IaC templates automatically |
 |15 | **CI/CD Pipeline for Frontend** | 🔜 Pending | Automate frontend deployment to Azure Blob Storage via GitHub Actions, with optional CDN cache purge |
@@ -125,3 +125,18 @@ Installing Pytest
 
 Passed
 ![Passed](screenshots/stage-11-passed.png)
+
+### ✅ Stage 12 Infrastructure as Code (Bicep)
+
+Automate provisioning of Azure resources
+
+Bicep File
+![Bicep file](screenshots/stage-12-main-bicep.png)
+
+Deployment Successful
+![Deployment Successful](screenshots/stage-12-bicep-file-deployment-successful.png)
+
+Deployed Resources on Azure Portal
+![Deployed Resources](screenshots/stage-12-deployed-resources-on-portal.png)
+
+### ✅ Stage 13 Source Control & CI/CD
