@@ -5,7 +5,13 @@ on:
     branches:
       - main
     paths:
-      - 'frontend/**'
+      - '**/*.html'
+      - '**/*.css'
+      - '**/*.js'
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.svg'
+      - '**/*.json'
   workflow_dispatch:
 
 jobs:
