@@ -31,6 +31,6 @@ jobs:
         run: |
           az storage blob upload-batch \
             --account-name preciouswebsite \
-            -s . \
+            -s precious-website \
             -d '$web' \
             --auth-mode key
