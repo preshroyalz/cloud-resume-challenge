@@ -25,6 +25,6 @@ jobs:
         run: |
           az storage blob upload-batch \
             --account-name preciouswebsite \
-            -s frontend \
+            -s . \
             -d '$web' \
             --auth-mode key
